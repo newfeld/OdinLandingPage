@@ -1,18 +1,149 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
 .header {
     display: flex;
-    justify-content: space-between;
-    
+    justify-content: center;
+    padding: 18px;
+    gap: 30vw;
+    background-color: #1f2937;
+    color: #f9faf8;
 }
 
 .logo {
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
     width: 150px;
-    color: blue;
+    font-size: 24px;
 }
 
 .menu-container {
     display: flex;
     flex-direction: row;
-    padding-top: 16px;
+    align-items: center;
+    font-size: 18px;
     margin: 0 32px;
     gap: 24px;
+}
+
+.overview {
+    display: flex;
+    justify-content: center;
+    background-color: #1f2937;
+    color: #f9faf8;
+}
+
+.description {
+    display: inline-block;
+    padding: 120px 52px 100px 200px;
+}
+
+.description-header {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.description-subtext {
+    font-size: 18px;
+    padding: 10px 10px 10px 0px;
+    color: #e5e7ebd0;
+}
+
+.signup {
+    font-size: 18px;
+    font-weight: bold;
+    color: #f9faf8;
+    background-color: #3882f6;
+    border: none;
+    border-radius: 10px;
+    width: 150px;
+    height: 40px;
+    margin-top: 10px;
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 150px 150px 0px;
+    max-height: 3300px;
+    max-width: 600px;
+    width: auto;
+    height: auto;
+}
+
+.randinfo {
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    font-weight: 800;
+    margin: 48px;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+    margin-bottom: 150px;
+}
+
+.luffy{
+    height: 200px;
+    width: 200px;
+    border-radius: 20px;
+    border: 5px solid #3882f6;
+}
+
+.icon-text {
+    width: 200px;
+    font-size: 18px;
+    color: rgb(107, 107, 107);
+    text-align: center;
+    margin-top: 5px;
+}
+
+.quote-region {
+    background-color: #e5e7eb;
+    padding: 150px 250px 150px 250px;
+}
+
+.quote {
+    font-style: italic;
+    font-size: 36px;
+    color: #313c4cc4;
+}
+
+.author {
+    text-align: right;
+    font-size: 32px;
+    color: black;
+    font-weight: bold;
+}
+
+.callaction {
+    display: flex;
+    justify-content: space-between;
+    background-color: #3882f6;
+    margin: 100px 200px 100px 200px;
+    padding: 50px 120px 50px 120px;
+    border-radius: 12px;
+}
+
+.callaction-head {
+    font-size: 24px;
+    color: #e5e7eb;
+    font-weight: bold;
+}
+
+.bottom {
+    border: 2px #e5e7eb solid;
+    color: #e5e7eb;
+}
+
+.cr {
+    font-size: 18px;
+    padding: 36px 0px 36px 0px;
+    color: #e5e7ebc5;
 }
